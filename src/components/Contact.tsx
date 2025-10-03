@@ -6,12 +6,12 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <section className="py-24 px-4">
+    <section id="contact" className="py-24 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold">Get In Touch</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Interested in collaboration or learning more about our research?
+            Interested in collaboration or discussing research opportunities?
           </p>
         </div>
         
@@ -58,7 +58,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Email</h3>
-                  <p className="text-sm text-muted-foreground">research@university.edu</p>
+                  <p className="text-sm text-muted-foreground">your.name@university.edu</p>
                 </div>
               </div>
             </Card>
@@ -83,8 +83,8 @@ export const Contact = () => {
                 <div>
                   <h3 className="font-semibold mb-1">Location</h3>
                   <p className="text-sm text-muted-foreground">
-                    Research Building, Room 301<br />
-                    University Campus, City 12345
+                    Department of Industrial Ecology<br />
+                    University Name, Campus
                   </p>
                 </div>
               </div>

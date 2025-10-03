@@ -4,36 +4,36 @@ import { FileText, ExternalLink } from "lucide-react";
 
 const publications = [
   {
-    title: "Deep Learning Approaches for Natural Language Understanding",
-    authors: "Smith, J., Johnson, A., Williams, R.",
-    journal: "Nature Machine Intelligence",
+    title: "Machine Learning for Circular Economy: Optimizing Material Flows in Manufacturing",
+    authors: "Your Name, et al.",
+    journal: "Journal of Industrial Ecology",
     year: "2024",
-    tags: ["AI", "NLP", "Deep Learning"]
+    tags: ["AI", "Circular Economy", "Manufacturing"]
   },
   {
-    title: "Quantum Error Correction Using Topological Codes",
-    authors: "Chen, L., Rodriguez, M., Kumar, S.",
-    journal: "Physical Review Letters",
+    title: "Deep Learning Framework for Real-Time Carbon Footprint Prediction in Smart Factories",
+    authors: "Your Name, et al.",
+    journal: "Journal of Cleaner Production",
     year: "2024",
-    tags: ["Quantum Computing", "Physics"]
+    tags: ["Deep Learning", "Sustainability", "Industry 4.0"]
   },
   {
-    title: "Scalable Microservices Architecture Patterns",
-    authors: "Davis, K., Martinez, P., Anderson, T.",
-    journal: "IEEE Software",
+    title: "AI-Driven Life Cycle Assessment: Automation and Optimization Opportunities",
+    authors: "Your Name, et al.",
+    journal: "Environmental Science & Technology",
     year: "2023",
-    tags: ["Software Engineering", "Architecture"]
+    tags: ["LCA", "Artificial Intelligence", "Sustainability"]
   }
 ];
 
 export const Publications = () => {
   return (
-    <section className="py-24 px-4">
+    <section id="publications" className="py-24 px-4">
       <div className="container mx-auto">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold">Featured Publications</h2>
+          <h2 className="text-4xl md:text-5xl font-bold">Publications</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Our latest contributions to the scientific community
+            Recent contributions to sustainable manufacturing and AI research
           </p>
         </div>
         

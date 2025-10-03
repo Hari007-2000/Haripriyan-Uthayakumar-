@@ -1,8 +1,8 @@
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { ResearchAreas } from "@/components/ResearchAreas";
+import { Projects } from "@/components/Projects";
 import { Publications } from "@/components/Publications";
-import { Team } from "@/components/Team";
 import { Contact } from "@/components/Contact";
 
 const Index = () => {
@@ -11,8 +11,8 @@ const Index = () => {
       <Navigation />
       <Hero />
       <ResearchAreas />
+      <Projects />
       <Publications />
-      <Team />
       <Contact />
     </div>
   );

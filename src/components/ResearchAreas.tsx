@@ -4,34 +4,34 @@ import { Brain, Atom, Code, Database } from "lucide-react";
 const areas = [
   {
     icon: Brain,
-    title: "Artificial Intelligence",
-    description: "Advancing machine learning algorithms and neural networks for next-generation intelligent systems."
+    title: "AI for Sustainability",
+    description: "Developing machine learning models to optimize resource use and minimize environmental impact in manufacturing systems."
   },
   {
     icon: Atom,
-    title: "Quantum Computing",
-    description: "Exploring quantum mechanics to revolutionize computational capabilities and cryptography."
+    title: "Industrial Ecology",
+    description: "Analyzing material and energy flows in industrial systems to promote circular economy and sustainability."
   },
   {
     icon: Code,
-    title: "Software Engineering",
-    description: "Developing robust methodologies and tools for scalable, secure software development."
+    title: "Sustainable Manufacturing",
+    description: "Applying computational methods to design and optimize environmentally-conscious production processes."
   },
   {
     icon: Database,
-    title: "Data Science",
-    description: "Extracting meaningful insights from complex datasets using advanced analytics and visualization."
+    title: "Life Cycle Assessment",
+    description: "Utilizing data science to evaluate environmental impacts throughout product and process lifecycles."
   }
 ];
 
 export const ResearchAreas = () => {
   return (
-    <section className="py-24 px-4 bg-muted/30">
+    <section id="research" className="py-24 px-4 bg-muted/30">
       <div className="container mx-auto">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold">Research Areas</h2>
+          <h2 className="text-4xl md:text-5xl font-bold">Research Focus</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Our multidisciplinary approach spans cutting-edge fields of science and technology
+            Integrating artificial intelligence with industrial ecology to create sustainable manufacturing solutions
           </p>
         </div>
         
